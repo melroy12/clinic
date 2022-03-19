@@ -1,0 +1,61 @@
+nav {
+    background-color: #385399;
+    padding: 5px 10px 10px 10px;
+    height: 15vh;
+    margin-bottom: 30px;
+    text-align: right;
+}
+nav div {
+    text-align: right;
+}
+img {
+    max-width: 20%;
+    padding-top: 2px;
+}
+.nav-link {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+}
+.img1 {
+    max-width:5%;
+    padding-top: 0px;
+}
+
+
+
+/*        WELCOME        */
+
+.container-1 {
+    padding: 10px 50px 20px;
+    display: flex;
+    margin: 5px 30% 20px;
+}
+.container-1 p {
+    margin: 0 30px;
+    font-size: 2rem;
+}
+
+.container {
+    border: 1px silver solid;
+    margin: 70px auto 70px;
+    padding: 2%;
+    width: 40%;
+}
+.container p {
+    font-size: 1.5rem;
+}
+
+
+.medicine {
+  margin-left: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.container .btn {
+    margin: 0.5%;
+}
+.navbar-collapse{
+    flex-direction: row-reverse;
+  }

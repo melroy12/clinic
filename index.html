@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MED-BAY</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://kit.fontawesome.com/f640d708e3.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+    body {
+      background-image: url('doc4.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+      .header {
+        position: fixed;
+        top:0;
+        width: 100%;
+        background-color:rgba(8, 8, 8, 0.508) ;
+      }
+      footer {
+       position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 140px;
+      font-size: 14px;
+      background-color:rgba(8, 8, 8, 0.808) ;
+      color: rgb(245, 234, 234);
+      padding: 10px;
+    }
+    .footer{
+      padding: 0;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .contact-info{
+      float: none;
+      text-align: center;
+      font-size: 15px;
+    }
+    p{
+      margin: 2px;
+    }
+    .nav-item{
+      margin:10px 20px;
+    }
+    .navbar{
+      margin: 18px;
+      padding: 0;
+    }
+    .social-icon{
+      margin:0 5px;
+    }
+    .title-main-page{
+      font-size: 26px;
+      color: rgb(245, 234, 234);
+      margin-left: 282px;
+    }
+    .intro-img{
+    background-color:rgba(8, 8, 8, 0.608) ;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    padding: 25px;
+    color: rgba(247, 247, 240, 0.911);
+    }
+    .card-img{
+      border-radius: 55px;
+    }
+    .intro-section{
+      position: absolute;
+      background-color:rgba(8, 8, 8, 0.608) ;
+      width: 500px;
+      height: 200px;
+      top: 20%;
+      right: 0;
+     padding: 25px;
+      border-left: 0;
+      color: rgba(247, 247, 240, 0.911);
+    }
+    .main-info{
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+    .sub-info{
+      font-size: 24px;
+    }
+    #nav-local{
+    position: relative;
+    right:100px;
+    }
+   
+      </style>
+</head>
+
+<body>
+  <!-- NAVBAR SECTION -->
+  <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark" >
+      <div class="container-fluid "  >
+        <img src="main.png" style="max-width: 5%;" alt="...">
+        <span class="title-main-page">Welcome to Med-bay</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse-navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="reg.php">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="log.php">Login</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="adlog.php">Admin</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class='main-page-wrapper'>
+   
+  <!-- DOCTOR INFO SECTION -->
+  <div class="intro-section">
+  <div class="main-info">
+    We are here for you! ...
+  </div>
+  <div class="sub-info">
+    " Medicine is not a book but mind, not a business but life . "
+  </div>
+</div>
+
+  <div class="intro-img">
+    <img class="card-img" src="doc.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h3 class="card-title">Dr.Martin</h3>
+      <p class="card-text"> MBBS,MD </p>
+    </div>
+  </div>
+  <!-- FOOTER SECTION -->
+
+  <footer>
+    <div class="contact-info">
+      <p>Contact :8217350255 , 0824 227 6738</p>
+      <p>Email : Martin@gmail.com</p>
+      <p>Address :87 Martin Clinic, Adyar</p>
+    </div>
+    <div class="footer">
+      <i class="social-icon fab fa-facebook-square"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p class="footercopy">© Copyright 2022 Med-Bay</p>
+    </div>
+  </footer>
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
